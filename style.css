@@ -1,0 +1,289 @@
+
+
+*{
+    margin:0px;
+    
+    font-weight:bold; 
+    font-family:'Roboto';
+    
+}
+body{
+   background-color:#e3e2df;
+    color:black;
+    margin:0 150px;
+}
+
+.intro{
+    
+    margin-top:20%;
+   
+}
+
+#hi{
+    display:flex;
+    align-items:center;
+    justify-content:left;
+  
+    font-weight:bolder;
+ 
+    font-size:50px;
+    color:#9a1750;
+}
+
+#hi2{
+    
+    display:flex;
+    align-items:center; 
+    justify-content:right ;
+    margin-top:75px;
+    font-size:25px;
+    letter-spacing: 1px;
+    text-indent:2px;
+}
+.about-section{
+    padding: 0 70px;
+    color:black;
+}
+
+#aboutheading{display:flex;
+    align-items:top;
+    justify-content:left;
+    font-weight:bolder;
+    font-size:42px;
+    margin-top:22%;
+    
+}
+.aboutt{ display:flex;
+    align-items:center;
+    justify-content:right;
+    margin-top:75px;
+
+}
+#abouttext{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:20px; 
+    border-radius: 10%; 
+    width:580px;  
+    height:auto; 
+    box-shadow:7px 4px 6px 2px #cb5075; 
+    font-size:25px;
+    letter-spacing: 0.5px;
+    text-indent:2px;
+    font-size:22px;  
+}
+
+/* ---------experience section-------- */
+
+.experience{
+    color:black;
+}
+
+#expheading{
+    display:flex;
+    align-items:top;
+    justify-content:left;
+    font-weight:bolder;
+    font-size:42px;
+    margin-top:22%;
+}
+
+.exptext{
+    display:flex;
+    align-items:center;
+    justify-content: right;
+    margin-top:75px;
+}
+#exptext1{
+    display:inline-block;
+    border-radius: 10%;
+    text-align:left; 
+    /* height:auto;
+    width:590px; */
+    width:580px;
+    height:auto;
+    padding-right:20px;
+    /* padding: 10px 10px 10px 10px; */
+    box-shadow:7px 4px 6px 2px #cb5075; 
+    font-size:22px;
+    letter-spacing: 0.5px;
+    text-indent:2px;
+}
+#list{
+    margin-bottom:18px;
+    margin-top:20px;
+    
+}
+/* ----------------------skills section----------------------- */
+
+#skillset1{
+    color:black;
+    display:flex;
+    align-items:top;
+    justify-content:left;
+    font-weight:bolder;
+    font-size:42px;
+    margin-top:22%;
+}
+.images{
+        display:flex;
+        align-items:center;
+        justify-content: left;
+        margin-top:75px;
+       
+}
+#img:hover{
+    transform:rotate(30deg) scale(1.2);
+} 
+/* //there might be a small syntax error in your transform property inside the :hover pseudo-class. if you take 1.2s and not 1.2  */
+/* //The scale function should take a scaling factor as an argument, not a time duration. */
+#img{
+
+    margin:45px;
+    object-fit: cover;
+    border-radius: 15%;
+    padding:1px 1px 1px 1px;
+    height:125px;
+    width:150px;
+    transition:transform 0.2s;
+}
+
+/* ---------------projects section---------------------- */
+
+#projectheading{
+    color:black;
+    display:flex;
+    align-items:top;
+    justify-content:left;
+    font-weight:bolder;
+    font-size:42px;
+    margin-top:22%;
+}
+
+.projects{
+   
+    display:flex;
+    align-items:center;
+    justify-content: left;
+    margin-top:75px;
+}
+.headtext{
+    text-align:center;
+}
+
+#project1{
+    
+    /* padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:10px; */
+    border-radius: 10%;
+    text-align:left;
+    height:auto;
+    width:auto;
+   
+    /* height:220px;
+    width:600px; */
+    box-shadow:7px 4px 6px 2px #cb5075; 
+    margin:35px;
+    font-size:22px;
+    letter-spacing: 0.5px;
+    text-indent:2px;
+ }
+ #list1{
+    margin-bottom:18px;
+ }
+ .headingtext{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color:#9a1750;
+ }
+#button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:40px;
+    margin-bottom:20px;
+    height: 40px;
+    width: 150px;
+    text-align:center;
+    color:black;
+    box-shadow:6px 6px 6px 6px #777674;
+    border-radius:20px;
+    text-decoration: none;   
+} 
+#button:hover{
+    color:#cb5075;
+}
+
+/* ------------------contact section----------------- */
+
+.contactheading{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:black;
+    font-weight:light;
+    font-style:italic;
+    font-size:38px;
+    margin-top:22%;
+    font-family: sans-serif;
+    
+    
+} 
+
+.images0{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-top:65px;
+    margin-bottom:22px;
+    
+} 
+.link{
+    /* display:flex;
+    align-items:center; */
+    /* margin:60px; */
+    object-fit: cover;
+    border-radius: 15%;
+    padding:2px 2px 2px 2px;
+    height:55px;
+    width:55px;
+    /* margin-top:80px;
+    margin-bottom: 2px; */
+}  
+@media only screen and (max-width: 1140px){
+
+.exptext{
+    flex-wrap: wrap;
+}
+.projects{
+flex-wrap: wrap;
+}
+
+}
+@media only screen and (max-width: 1398px){
+
+   .images{
+    flex-wrap: wrap;
+   }
+    }
+     @keyframes slideIn {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(0);
+        }
+      }
+      #hi{
+        animation: slideIn 1.5s ease-in-out;
+      } 
+
+      
+      
+     
