@@ -1,268 +1,269 @@
-
-  /* Global Styles */
+/* Global Styles */
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f0f4f8; /* Soft blue-gray background */
+  margin: 0 5vw; /* Adjusted margin for dynamic spacing */
+}
+
+/* Introduction Section */
+/* Introduction Section */
+.intro {
+  margin-top: 25vh; /* Use viewport height for responsiveness */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  opacity: 0; /* Set initial opacity to 0 for fade-in effect */
+  animation: fadeIn 2s ease forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start with opacity 0 */
   }
-  
-  body {
-    background-color: #f0f4f8; /* Soft blue-gray background */
-    margin: 0 5vw; /* Adjusted margin for dynamic spacing */
+  to {
+    opacity: 1; /* End with opacity 1 */
   }
+}
+
+#hi {
+  font-weight: bold;
+  font-size: 3.5vw; /* Responsive font size */
+  color: #b7752d; /* Dark gray for heading */
+}
+
+#hi2 {
+  margin-top: 2vh; /* Adjusted spacing */
+  font-size: 2vw; /* Responsive font size */
+  color: #555; /* Slightly darker gray for content */
+}
+
+#hi2:hover {
+  color: #9e6b34; /* Blue color on hover */
+}
+
+
+
+/* About Section */
+.aboutsection {
+  margin: 18vh 0; 
+  text-align: center;
+}
+
+#aboutheading {
+  font-size: 3vw; /* Responsive font size */
+  font-weight: bold;
+  margin-bottom: 2vh; /* Adjusted margin for spacing */
+  color: #333; /* Dark gray for heading */
+}
+
+#abouttext {
+  font-size: 2vw; /* Responsive font size */
+  line-height: 1.6;
+  text-align: justify;
+  color: #555; /* Slightly darker gray for content */
+}
+
+#abouttext::first-letter {
+  font-size: 150%; /* Increase the size of the first letter */
+  color: #9e6b34; /* Blue color for first letter */
+}
+
+/* Experience Section */
+
+ /* Experience Section */
+.experience {
+  margin: 18vh 0; /* Adjusted margin for dynamic spacing */
+}
+
+.experience #expheading {
+  font-size: 3vw; /* Responsive font size */
+  font-weight: bold;
+  margin-bottom: 4vh; /* Adjusted margin for spacing */
+  color: #333; /* Dark gray for heading */
+  text-align:center;
+}
+
+.exptext {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.exptext ul {
+  flex: 1 1 30vw; /* Responsive width */
+  margin: 2vh;
+  padding: 5vh;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   
-  /* Introduction Section */
-  .intro {
-    margin-top: 25vh; /* Use viewport height for responsiveness */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: left;
-  }
-  
-  #hi {
-    font-weight: bold;
-    font-size: 3.5vw; /* Responsive font size */
-    color:#b7752d; /* Dark gray for heading */
-    
-  }
-  
+}
+
+
+
+/* Skillset Section */
+.skillset {
+  margin: 18vh 0; /* Adjusted margin for dynamic spacing */
+  text-align: center;
+}
+
+#skillset1 {
+  font-size: 3vw; /* Responsive font size */
+  font-weight: bold;
+  margin-bottom: 4vh; /* Adjusted margin for spacing */
+  color: #333; /* Dark gray for heading */
+}
+
+.images {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.images img {
+  width: 10vw; /* Responsive image size */
+  height: 10vw; /* Responsive image size */
+  margin: 2vh; /* Adjusted margin for spacing */
+  border-radius: 50%;
+  transition: transform 0.5s ease;
+}
+
+.images img:hover {
+  transform: rotate(45deg);
+} 
+
+/* Projects Section */
+.projectsection {
+  margin: 18vh 0; /* Adjusted margin for dynamic spacing */
+}
+
+.projectsection #projectheading {
+  font-size: 3vw; /* Responsive font size */
+  font-weight: bold;
+  margin-bottom: 4vh; /* Adjusted margin for spacing */
+  color: #333; /* Dark gray for heading */
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects ul {
+  flex: 1 1 30vw; /* Responsive width */
+  margin: 2vh;
+  padding: 5vh;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.projects ul:hover {
+  transform: translateY(-10px);
+}
+
+.headingtext {
+  font-size: 2.5vw; /* Responsive font size */
+  font-weight: bold;
+  margin-bottom: 2vh; /* Adjusted margin for spacing */
+  color: #333; /* Dark gray for heading */
+}
+
+.list1 {
+  margin-bottom: 2vh; /* Adjusted margin for spacing */
+  line-height: 1.6;
+  color: #555; /* Slightly darker gray for content */
+}
+
+.button {
+  display: inline-block;
+  padding: 1vh 2vw; /* Responsive padding */
+  background-color: #9e6b34; /* Blue color for button */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #9e6b34; /* Darker blue color on hover */
+}
+
+/* Contact Section */
+.contactsection {
+  margin: 10vh 0; /* Adjusted margin for dynamic spacing */
+  text-align: center;
+}
+
+.contactheading {
+  font-size: 3vw; /* Responsive font size */
+  font-weight: bold;
+  margin-bottom: 3vh; /* Adjusted margin for spacing */
+  color: #333; /* Dark gray for heading */
+}
+
+.contactlinks {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
  
-  
-  
-  #hi2 {
-    margin-top: 2vh; /* Adjusted spacing */
-    font-size: 2vw; /* Responsive font size */
-    color: #555; /* Slightly darker gray for content */
+
+}
+
+.contactlinks a {
+  margin: 0 2vw; /* Adjusted margin for spacing */
+
+}
+
+.contactlinks img {
+  width: 5vw; /* Responsive image size */
+  height: 5vw; /* Responsive image size */
+  object-fit: cover;
+  border-radius:1rem;
+  transition:transform(5s) ease-in;
+ 
+}
+.contactlinks img:hover{
+  transform :translateY(-10px);
+}
+/* Media Queries */
+
+/* Laptop Screens (greater than 1024px) */
+@media only screen and (min-width: 1024px) {
+  body {
+    margin: 0 10vw; /* Increased margin for wider screens */
   }
-  
-  #hi2:hover {
-    color: #9e6b34; /* Blue color on hover */
+}
+
+/* iPad Screens (between 768px and 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 0 5vw; /* Adjusted margin for iPad screens */
   }
-  
-  /* About Section */
-  .aboutsection {
-    margin: 18vh 0; /* Adjusted margin for dynamic spacing */
-    text-align: center;
+}
+
+/* Mobile Screens (up to 767px) */
+@media only screen and (max-width: 767px) {
+  body {
+    margin: 0; /* Reset margin for mobile screens */
   }
-  
-  #aboutheading {
-    font-size: 3vw; /* Responsive font size */
-    font-weight: bold;
-    margin-bottom: 2vh; /* Adjusted margin for spacing */
-    color: #333; /* Dark gray for heading */
-  }
-  
-  #abouttext {
-    font-size: 2vw; /* Responsive font size */
-    line-height: 1.6;
-    text-align: justify;
-    color: #555; /* Slightly darker gray for content */
-  }
-  
-  #abouttext::first-letter {
-    font-size: 150%; /* Increase the size of the first letter */
-    color: #9e6b34; /* Blue color for first letter */
-  }
-  
-  /* Experience Section */
-  .experience {
-    margin: 18vh 0; /* Adjusted margin for dynamic spacing */
-    text-align: center;
-  }
-  
-  #expheading {
-    font-size: 3vw; /* Responsive font size */
-    font-weight: bold;
-    margin-bottom: 2vh; /* Adjusted margin for spacing */
-    color: #333; /* Dark gray for heading */
-  }
-  
-  .exptext {
-    padding: 5vh; /* Adjusted padding */
-    background-color: #fff; /* White background */
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  #exptext1 {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #exptext1 li {
-    margin-bottom: 2vh; /* Adjusted margin for spacing */
-    line-height: 1.6;
-    color: #555; /* Slightly darker gray for content */
-  }
-  
-  #exptext1 li::before {
-    content: "\2022";
-    color: #007bff;
-    font-weight: bold;
-    margin-right: 0.5vw; /* Adjusted margin for spacing */
-  }
-  
-  #exptext1 li:hover {
-    background-color: #f7f7f7; /* Light gray background on hover */
-    cursor: pointer;
-  }
-  
-  /* Skillset Section */
-  .skillset {
-    margin: 18vh 0; /* Adjusted margin for dynamic spacing */
-    text-align: center;
-  }
-  
-  #skillset1 {
-    font-size: 3vw; /* Responsive font size */
-    font-weight: bold;
-    margin-bottom: 4vh; /* Adjusted margin for spacing */
-    color: #333; /* Dark gray for heading */
-  }
-  
-  .images {
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    align-items:center;
-    object-fit:cover;
-  }
-  
-  .images img {
-    width: 10vw; /* Responsive image size */
-    height: 10vw; /* Responsive image size */
-    margin: 2vh; /* Adjusted margin for spacing */
-    border-radius: 50%;
-    transition: transform 0.3s ease;
-  }
-  
-  .images img:hover {
-    transform: scale(1.1);
-  }
-  
-  /* Projects Section */
-  .projectsection {
-    margin: 18vh 0; /* Adjusted margin for dynamic spacing */
-  }
-  
-  .projectsection #projectheading {
-    font-size: 3vw; /* Responsive font size */
-    font-weight: bold;
-    margin-bottom: 4vh; /* Adjusted margin for spacing */
-    color: #333; /* Dark gray for heading */
-  }
-  
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .projects ul {
-    flex: 1 1 30vw; /* Responsive width */
-    margin: 2vh;
-    padding: 5vh;
-    background-color: #fff; /* White background */
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-  }
-  
-  .projects ul:hover {
-    transform: translateY(-5px);
-  }
-  
-  .headingtext {
-    font-size: 2.5vw; /* Responsive font size */
-    font-weight: bold;
-    margin-bottom: 2vh; /* Adjusted margin for spacing */
-    color: #333; /* Dark gray for heading */
-  }
-  
-  .list1 {
-    margin-bottom: 2vh; /* Adjusted margin for spacing */
-    line-height: 1.6;
-    color: #555; /* Slightly darker gray for content */
-  }
-  
-  .button {
-    display: inline-block;
-    padding: 1vh 2vw; /* Responsive padding */
-    background-color: #9e6b34; /* Blue color for button */
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
-    background-color: #9e6b34; /* Darker blue color on hover */
-  }
-  
-  /* Contact Section */
+
+  .intro,
+  .aboutsection,
+  .experience,
+  .skillset,
+  .projectsection,
   .contactsection {
-    margin: 10vh 0; /* Adjusted margin for dynamic spacing */
-    text-align: center;
+    margin-top: 10vh; /* Adjusted margin for better spacing on mobile */
+    margin-bottom: 10vh;
   }
-  
-  .contactheading {
-    font-size: 3vw; /* Responsive font size */
-    font-weight: bold;
-    margin-bottom: 2vh; /* Adjusted margin for spacing */
-    color: #333; /* Dark gray for heading */
-  }
-  
-  .contactlinks {
-    display: flex;
-    justify-content: center;
-    gap:4rem;
-    
-  }
-  
-  .contactlinks a {
-    margin: 0 2vw; /* Adjusted margin for spacing */
-  }
-  
-  .contactlinks img {
-    width: 5vw; /* Responsive image size */
-    height: 5vw; /* Responsive image size */
-    object-fit:cover;
-  }
-  
-  
-  
-  /* Media Queries */
-  
-  /* Laptop Screens (greater than 1024px) */
-  @media only screen and (min-width: 1024px) {
-    body {
-      margin: 0 10vw; /* Increased margin for wider screens */
-    }
-  }
-  
-  /* iPad Screens (between 768px and 1024px) */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    body {
-      margin: 0 5vw; /* Adjusted margin for iPad screens */
-    }
-  }
-  
-  /* Mobile Screens (up to 767px) */
-  @media only screen and (max-width: 767px) {
-    body {
-      margin: 0; /* Reset margin for mobile screens */
-    }
-  
-    .intro,
-    .aboutsection,
-    .experience,
-    .skillset,
-    .projectsection,
-    .contactsection {
-      margin-top: 10vh; /* Adjusted margin for better spacing on mobile */
-      margin-bottom: 10vh; /* Adjusted margin for better spacing on mobile */
-    }
-  }
-  
-  
+}
