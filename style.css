@@ -213,7 +213,7 @@ body {
   background-color: #9e6b34; /* Blue color for button */
   color: #fff;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: background-color 0.3s ease;
 }
 
@@ -286,3 +286,24 @@ body {
     margin-bottom: 10vh;
   }
 }
+/* CSS for resume button */
+.resumebtn {
+  position: fixed; /* Set position to fixed */
+  bottom: 20px; /* Position from the bottom edge */
+  right: 20px; /* Position from the right edge */
+  padding: 2vh 4vw; /* Responsive padding */
+  font-size: 1.2em; /* Increase font size */
+  line-height: 1.5; /* Increase line height */
+  background-color: rgba(158, 107, 52, 0.8); /* Brown color with transparency */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  text-align: center; /* Center text horizontally */
+  z-index: 9999; /* Ensure the button stays on top */
+}
+
+.resumebtn:hover {
+  background-color: rgba(122, 77, 37, 0.8); /* Darker brown color with transparency on hover */
+}
+
