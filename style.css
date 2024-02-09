@@ -48,11 +48,9 @@ body {
   color: #9e6b34; /* Blue color on hover */
 }
 
-
-
 /* About Section */
 .aboutsection {
-  margin: 18vh 0; 
+  margin: 18vh 0;
   text-align: center;
 }
 
@@ -76,40 +74,44 @@ body {
 }
 
 /* Experience Section */
-
- /* Experience Section */
 .experience {
   margin: 18vh 0; /* Adjusted margin for dynamic spacing */
 }
 
+/* Heading styles */
 .experience #expheading {
   font-size: 3vw; /* Responsive font size */
   font-weight: bold;
   margin-bottom: 4vh; /* Adjusted margin for spacing */
   color: #333; /* Dark gray for heading */
-  text-align:center;
+  text-align: center;
 }
 
+/* Flexbox for wrapping experience boxes */
 .exptext {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* Ensure all items stay on the same line */
+  justify-content: space-around; /* Distribute items evenly */
 }
 
+/* Style for individual experience boxes */
 .exptext ul {
-  flex: 1 1 30vw; /* Responsive width */
+  flex: 0 0 calc(25% - 20px); /* Responsive width */
   margin: 2vh;
   padding: 5vh;
   background-color: #fff; /* White background */
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
+  transition: transform 0.3s ease;
 }
-
+.exptext ul:hover {
+  transform: scale(1.05); /* Zoom in effect on hover */
+}
 
 
 /* Skillset Section */
 .skillset {
-  margin: 18vh 0; /* Adjusted margin for dynamic spacing */
+  margin: 18vh 0; 
   text-align: center;
 }
 
@@ -138,7 +140,7 @@ body {
 
 .images img:hover {
   transform: rotate(45deg);
-} 
+}
 
 /* Projects Section */
 .projectsection {
@@ -215,25 +217,21 @@ body {
   display: flex;
   justify-content: center;
   gap: 3rem;
- 
-
 }
 
 .contactlinks a {
   margin: 0 2vw; /* Adjusted margin for spacing */
-
 }
 
 .contactlinks img {
   width: 5vw; /* Responsive image size */
   height: 5vw; /* Responsive image size */
   object-fit: cover;
-  border-radius:1rem;
-  transition:transform(5s) ease-in;
- 
+  border-radius: 1rem;
+  transition: transform(5s) ease-in;
 }
-.contactlinks img:hover{
-  transform :translateY(-10px);
+.contactlinks img:hover {
+  transform: translateY(-10px);
 }
 /* Media Queries */
 
