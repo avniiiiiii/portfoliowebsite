@@ -127,13 +127,29 @@ body {
     width: calc(100% - 20px);
   }
 }
-@media only screen and (max-width: 390px) {
+
+@media only screen and (max-width: 420px) {
   .experience-box {
     max-width: calc(100% - 30px);
     padding: 8px;
+    overflow: hidden; 
+  }
+}
+  .exptext ul {
+    max-width: calc(100% - 30px); 
+  }
+
+  .exptext ul li {
+    margin-left: 20px; 
+  }
+
+@media only screen and (max-width: 423px) {
+  .experience-box {
+    width: calc(100% - 20px);
+    padding: 8px;
   }
 } */
-/* Media queries for responsiveness */
+/* * Media queries for responsiveness */ 
 @media screen and (max-width: 768px) {
   .experience-box {
     width: calc(50% - 20px);
@@ -146,21 +162,25 @@ body {
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 440px) {
   .experience-box {
-    max-width: calc(100% - 30px);
+    width: calc(100% - 20px);
     padding: 8px;
-    overflow: hidden; /* Prevent text overflow */
-  }
-
-  .exptext ul {
-    max-width: calc(100% - 30px); /* Limit width of ul */
   }
 
   .exptext ul li {
     margin-left: 20px; /* Adjust margin to keep list markers within the box */
+    word-wrap: break-word; /* Allow long words to wrap */
   }
 }
+@media only screen and (max-width: 300px) {
+  .experience-box {
+    width: calc(100% - 20px);
+    height: auto; /* Adjust height to fit content */
+    padding: 8px;
+  }
+}
+
 /* Skillset Section */
 .skillset {
   margin: 18vh 0;
