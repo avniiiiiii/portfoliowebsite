@@ -179,8 +179,8 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
 .projects ul {
+  position: relative; /* Set position relative to contain absolutely positioned button */
   flex: 1 1 30vw; /* Responsive width */
   margin: 2vh;
   padding: 5vh;
@@ -188,6 +188,19 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+}
+
+.button {
+  position: absolute;
+  bottom: 15px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1vh 2vw; /* Responsive padding */
+  background-color: #9e6b34; /* Blue color for button */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
 
 .projects ul:hover {
@@ -198,7 +211,7 @@ body {
   font-size: 2.5vw; /* Responsive font size */
   font-weight: bold;
   margin-bottom: 2vh; /* Adjusted margin for spacing */
-  color: #333; /* Dark gray for heading */
+  color: #333; /* Dark gray for heading */6
 }
 
 .list1 {
@@ -207,16 +220,9 @@ body {
   color: #555; /* Slightly darker gray for content */
 }
 
-.button {
-  display: inline-block;
-  padding: 1vh 2vw; /* Responsive padding */
-  background-color: #9e6b34; /* Blue color for button */
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
+.marker {
+  list-style-type: none;
 }
-
 .button:hover {
   background-color: #9e6b34; /* Darker blue color on hover */
 }
@@ -304,6 +310,10 @@ body {
 }
 
 .resumebtn:hover {
-  background-color: rgba(122, 77, 37, 0.8); /* Darker brown color with transparency on hover */
+  background-color: rgba(
+    122,
+    77,
+    37,
+    0.8
+  ); /* Darker brown color with transparency on hover */
 }
-
