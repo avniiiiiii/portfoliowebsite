@@ -180,6 +180,29 @@ body {
     padding: 8px;
   }
 }
+@media only screen and (max-width: 320px) {
+  .experience-box {
+    width: calc(100% - 20px);
+    height: auto; /* Adjust height to fit content */
+    padding: 8px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .experience-box {
+    width: calc(100% - 20px);
+    height: auto; /* Adjust height to fit content */
+    padding: 8px;
+  }
+}
+@media only screen and (max-width: 397px) {
+  .experience-box {
+    width: calc(100% - 20px);
+    height: auto; /* Adjust height to fit content */
+    padding: 8px;
+  }
+}
+
+
 
 /* Skillset Section */
 .skillset {
