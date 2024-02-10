@@ -119,13 +119,12 @@ body {
 
 
 /* Ensure equal spacing between boxes */
-.experience-box:first-child {
-  margin-left: 0; /* Remove left margin for the first box */
-}
+/* .experience-box:first-child {
+  margin-left: 0; }
 
 .experience-box:hover {
-  transform: scale(1.05); /* Zoom in effect on hover */
-}
+  transform: scale(1.05); 
+} */
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
