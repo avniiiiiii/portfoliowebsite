@@ -94,18 +94,7 @@ body {
   width: 100%; /* Ensure heading takes full width */
 }
 
-/* Style for individual experience boxes */
-/* .experience-box {
-  width: calc(33.33% - 20px); /* Set the initial size of each box */
-  /* margin: 2vh; 
-  padding: 5vh; 
-  background-color: #fff; 
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  text-align:left;
 
-}  */
 /* Style for individual experience boxes */
 .experience-box {
   width: 300px; /* Set a fixed width */
