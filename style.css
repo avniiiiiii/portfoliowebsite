@@ -402,14 +402,14 @@ body {
 @media only screen and (max-width: 767px) {
   /* Adjusted font size and weight for section headings */
   .intro #hi2{
-font-size:30px;
+font-size:29px;
 font-weight:bold;
   }}
   
 @media only screen and (max-width: 700px) {
   /* Adjusted font size and weight for section headings */
   #abouttext{
-font-size:4vw;
+font-size:3vw;
 
   }}
 
