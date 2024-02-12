@@ -34,13 +34,14 @@ body {
 
 #hi {
   font-weight: bold;
-  font-size: 3.5vw; /* Responsive font size */
+  font-size: 5vw; /* Responsive font size */
   color: #b7752d; /* Dark gray for heading */
 }
 
 #hi2 {
   margin-top: 2vh; /* Adjusted spacing */
-  font-size: 2vw; /* Responsive font size */
+  font-size: 4vw;
+  font-weight:bold; /* Responsive font size */
   color: #555; /* Slightly darker gray for content */
 }
 
@@ -55,7 +56,7 @@ body {
 }
 
 #aboutheading {
-  font-size: 3vw; /* Responsive font size */
+  font-size: 3.5vw; /* Responsive font size */
   font-weight: bold;
   margin-bottom: 2vh; /* Adjusted margin for spacing */
   color: #333; /* Dark gray for heading */
@@ -87,7 +88,7 @@ body {
 
 /* Heading styles */
 #expheading {
-  font-size: 3vw; /* Responsive font size */
+  font-size: 3.5vw; /* Responsive font size */
   font-weight: bold;
   margin-bottom: 4vh; /* Adjusted margin for spacing */
   color: #333; /* Dark gray for heading */
@@ -177,7 +178,7 @@ body {
 }
 
 #skillset1 {
-  font-size: 3vw; /* Responsive font size */
+  font-size: 3.5vw; /* Responsive font size */
   font-weight: bold;
   margin-bottom: 4vh; /* Adjusted margin for spacing */
   color: #333; /* Dark gray for heading */
@@ -209,7 +210,7 @@ body {
 }
 
 .projectsection #projectheading {
-  font-size: 3vw; /* Responsive font size */
+  font-size: 3.5vw; /* Responsive font size */
   font-weight: bold;
   margin-bottom: 4vh; /* Adjusted margin for spacing */
   color: #333; /* Dark gray for heading */
@@ -249,7 +250,7 @@ body {
 }
 
 .headingtext {
-  font-size: 2.5vw; /* Responsive font size */
+  font-size: 3vw; /* Responsive font size */
   font-weight: bold;
   margin-bottom: 2vh; /* Adjusted margin for spacing */
   color: #333; /* Dark gray for heading */
@@ -275,7 +276,7 @@ body {
 }
 
 .contactheading {
-  font-size: 3vw; /* Responsive font size */
+  font-size: 3.5vw; /* Responsive font size */
   font-weight: bold;
   margin-bottom: 3vh; /* Adjusted margin for spacing */
   color: #333; /* Dark gray for heading */
