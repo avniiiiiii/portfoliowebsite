@@ -115,40 +115,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Media queries for responsiveness */
-/* @media screen and (max-width: 768px) {
-  .experience-box {
-    width: calc(50% - 20px);
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .experience-box {
-    width: calc(100% - 20px);
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .experience-box {
-    max-width: calc(100% - 30px);
-    padding: 8px;
-    overflow: hidden; 
-  }
-}
-  .exptext ul {
-    max-width: calc(100% - 30px); 
-  }
-
-  .exptext ul li {
-    margin-left: 20px; 
-  }
-
-@media only screen and (max-width: 423px) {
-  .experience-box {
-    width: calc(100% - 20px);
-    padding: 8px;
-  }
-} */
 /* * Media queries for responsiveness */ 
 @media screen and (max-width: 768px) {
   .experience-box {
@@ -415,3 +381,32 @@ body {
     padding: 4px 8px;
   }
 }
+/* Media query for mobile screens */
+@media only screen and (max-width: 767px) {
+  /* Adjusted font size and weight for section headings */
+  /* .intro #hi,
+  .intro #hi2, */
+  .aboutsection #aboutheading,
+  .experience #expheading,
+  .skillset #skillset1,
+  .projectsection #projectheading,
+  .contactsection .contactheading {
+    font-size: 35px; /* Adjusted font size for mobile */
+    font-weight: bold; /* Ensure headings remain bold */
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* Adjusted font size and weight for section headings */
+  .intro #hi2{
+font-size:30px;
+font-weight:bold;
+  }}
+
+
+@media only screen and (max-width: 767px) {
+  /* Adjusted font size and weight for section headings */
+  .intro #hi{
+font-size:40px;
+font-weight:bold;
+  }}
