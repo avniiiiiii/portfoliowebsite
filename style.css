@@ -40,7 +40,7 @@ body {
 
 #hi2 {
   margin-top: 2vh; /* Adjusted spacing */
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold; /* Responsive font size */
   color: #555; /* Slightly darker gray for content */
 }
@@ -185,9 +185,10 @@ body {
 /* Projects Section */
 .projectsection {
   margin: 18vh 0; /* Adjusted margin for dynamic spacing */
+  text-align:center;
 }
 
-.projectsection #projectheading {
+ #projectheading {
   font-size: 3.5vw; /* Responsive font size */
   font-weight: bold;
   margin-bottom: 4vh; /* Adjusted margin for spacing */
