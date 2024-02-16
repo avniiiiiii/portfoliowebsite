@@ -41,7 +41,7 @@ body {
 #hi2 {
   margin-top: 2vh; /* Adjusted spacing */
   font-size: 3.5vw;
-  font-weight: bold; /* Responsive font size */
+  /* font-weight: bold; Responsive font size */
   color: #555; /* Slightly darker gray for content */
 }
 
@@ -386,7 +386,7 @@ body {
   /* Adjusted font size and weight for section headings */
   .intro #hi2 {
     font-size: 29px;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 }
 
