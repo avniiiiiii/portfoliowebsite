@@ -10,10 +10,21 @@ body {
   margin: 0 5vw; /* Adjusted margin for dynamic spacing */
 }
 
+
 /* Introduction Section */
-/* Introduction Section */
+/* .intro {
+  margin-top: 25vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  opacity: 0; 
+  animation: fadeIn 2s ease forwards;
+} */ 
 .intro {
   margin-top: 25vh; /* Use viewport height for responsiveness */
+  margin: 0 5vw; /* Add margin on both left and right sides */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -49,9 +60,13 @@ body {
   color: #9e6b34; /* Blue color on hover */
 }
 
+
+
+
+
 /* About Section */
 .aboutsection {
-  margin: 18vh 0;
+  margin: 18vh 5vw; /* Add margin on both left and right sides */
   text-align: center;
 }
 
@@ -148,37 +163,35 @@ body {
     word-wrap: break-word;
   }
 }
-
-/* Skillset Section */
+/*SKILLSET SECTION*/
 .skillset {
-  margin: 18vh 0;
   text-align: center;
+  margin: 18vh 0;
 }
 
-#skillset1 {
-  font-size: 3.5vw; /* Responsive font size */
+.skillset-heading {
+  font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 4vh; /* Adjusted margin for spacing */
-  color: #333; /* Dark gray for heading */
+  margin-bottom: 2rem;
+  color: #333;
 }
 
-.images {
+.skill-icons {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
-  object-fit: cover;
+  flex-wrap: wrap;
 }
 
-.images img {
-  width: 10vw; /* Responsive image size */
-  height: 10vw; /* Responsive image size */
-  margin: 2vh; /* Adjusted margin for spacing */
+.skill-icons img {
+  width: 100px;
+  height: 100px;
+  margin: 1rem;
   border-radius: 50%;
   transition: transform 0.5s ease;
 }
 
-.images img:hover {
+.skill-icons img:hover {
   transform: rotate(45deg);
 }
 
@@ -381,6 +394,7 @@ body {
     font-weight: bold; /* Ensure headings remain bold */
   }
 }
+
 
 @media only screen and (max-width: 767px) {
   /* Adjusted font size and weight for section headings */
