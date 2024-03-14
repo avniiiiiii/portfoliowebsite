@@ -10,7 +10,7 @@ body {
 }
 
 
-/* Introduction Section */
+/*-------------------------------------------Introductory Section------------------------------------------------ */
 
 .intro {
   margin: 10vh 5vw 0;
@@ -19,8 +19,8 @@ body {
   align-items: flex-start;
   justify-content: center;
   text-align: left;
-  opacity: 0; /* Set initial opacity to 0 for fade-in effect */
-  animation: fadeIn 4s ease forwards; /* Apply fade-in animation */
+  opacity: 0; 
+  animation: fadeIn 4s ease forwards; /*for animation*/
 }
 
 @keyframes fadeIn {
@@ -34,51 +34,47 @@ body {
 
 #hi {
   font-weight: bold;
-  font-size: 5vw; /* Responsive font size */
-  color: #b7752d; /* Dark gray for heading */
+  font-size: 5vw; 
+  color: #b7752d; 
 }
 
 #hi2 {
-  margin-top: 2vh; /* Adjusted spacing */
+  margin-top: 2vh; 
   font-size: 3.5vw;
-  /* font-weight: bold; Responsive font size */
-  color: #555; /* Slightly darker gray for content */
+ 
+  color: #555; 
 }
 
 #hi2:hover {
-  color: #9e6b34; /* Blue color on hover */
+  color: #9e6b34;/*on hover */
 }
 
+/*--------------------------------------------- About Section------------------------------------------------ */
 
-
-
-
-/* About Section */
 .aboutsection {
-  margin: 18vh 5vw; /* Add margin on both left and right sides */
+  margin: 18vh 5vw; /* margin on both left and right sides */
   text-align: center;
 }
 
 #aboutheading {
-  font-size: 3.5vw; /* Responsive font size */
+  font-size: 3.5vw;
   font-weight: bold;
-  margin-bottom: 2vh; /* Adjusted margin for spacing */
-  color: #333; /* Dark gray for heading */
+  margin-bottom: 2vh; 
+  color: #333; 
 }
 
 #abouttext {
-  font-size: 2vw; /* Responsive font size */
+  font-size: 2vw; 
   line-height: 1.6;
   text-align: justify;
-  color: #555; /* Slightly darker gray for content */
+  color: #555; 
 }
 
 #abouttext::first-letter {
   font-size: 150%; /* Increase the size of the first letter */
-  color: #9e6b34; /* Blue color for first letter */
+  color: #9e6b34; /*changed color for the first letter*/
 }
-
-/* Experience Section */
+/*--------------------------------------------Experience Section------------------------------------------------ */
 
 .experience {
   display: flex; 
@@ -154,14 +150,14 @@ body {
 } 
 
 
-/*SKILLSET SECTION*/
+/*-------------------------------------------Skillset Section------------------------------------------------ */
 .skillset {
   text-align: center;
   margin: 18vh 0;
 }
 
 .skillset-heading {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 2rem;
   color: #333;
@@ -186,17 +182,18 @@ body {
   transform: rotate(45deg);
 }
 
-/* Projects Section */
+/*---------------------------------------------Project Section------------------------------------------------ */
+
 .projectsection {
-  margin: 18vh 0; /* Adjusted margin for dynamic spacing */
+  margin: 18vh 0; 
   text-align:center;
 }
 
  #projectheading {
-  font-size: 3.5vw; /* Responsive font size */
+  font-size: 3.5vw;
   font-weight: bold;
-  margin-bottom: 4vh; /* Adjusted margin for spacing */
-  color: #333; /* Dark gray for heading */
+  margin-bottom: 4vh; 
+  color: #333; 
 }
 
 .projects {
@@ -204,11 +201,11 @@ body {
   flex-wrap: wrap;
 }
 .projects ul {
-  position: relative; /* Set position relative to contain absolutely positioned button */
-  flex: 1 1 30vw; /* Responsive width */
+  position: relative; 
+  flex: 1 1 30vw; 
   margin: 2vh;
   padding: 5vh;
-  background-color: #fff; /* White background */
+  background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -216,11 +213,11 @@ body {
 
 .button {
   position: absolute;
-  bottom: 15px; /* Adjust as needed */
+  bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
-  padding: 1vh 2vw; /* Responsive padding */
-  background-color: #9e6b34; /* Blue color for button */
+  padding: 1vh 2vw; 
+  background-color: #9e6b34;
   color: #fff;
 
   text-decoration: none;
@@ -233,36 +230,36 @@ body {
 }
 
 .headingtext {
-  font-size: 3vw; /* Responsive font size */
+  font-size: 3vw;
   font-weight: bold;
-  margin-bottom: 2vh; /* Adjusted margin for spacing */
-  color: #333; /* Dark gray for heading */
+  margin-bottom: 2vh; 
+  color: #333; 
 }
 
 .list1 {
-  margin-bottom: 2vh; /* Adjusted margin for spacing */
+  margin-bottom: 2vh;
   line-height: 1.6;
-  color: #555; /* Slightly darker gray for content */
+  color: #555; 
 }
 
 .marker {
   list-style-type: none;
 }
 .button:hover {
-  background-color: #9e6b34; /* Darker blue color on hover */
+  background-color: #9e6b34;
 }
 
-/* Contact Section */
+/*--------------------------------------------Contact Section------------------------------------------------ */
 .contactsection {
-  margin: 10vh 0; /* Adjusted margin for dynamic spacing */
+  margin: 10vh 0; 
   text-align: center;
 }
 
 .contactheading {
-  font-size: 3.5vw; /* Responsive font size */
+  font-size: 3.5vw;
   font-weight: bold;
-  margin-bottom: 3vh; /* Adjusted margin for spacing */
-  color: #333; /* Dark gray for heading */
+  margin-bottom: 3vh;
+  color: #333; 
 }
 
 .contactlinks {
@@ -272,72 +269,72 @@ body {
 }
 
 .contactlinks a {
-  margin: 0 2vw; /* Adjusted margin for spacing */
+  margin: 0 2vw; 
 }
 
 .contactlinks img {
-  width: 5vw; /* Responsive image size */
-  height: 5vw; /* Responsive image size */
+  width: 5vw;
+  height: 5vw; 
   object-fit: cover;
   border-radius: 1rem;
   transition: transform(5s) ease-in;
 }
 @media only screen and (max-width: 760px) {
   .contactlinks img {
-    width: 55px; /* Adjusted size for mobile screens */
-    height: 55px; /* Adjusted size for mobile screens */
+    width: 55px; 
+    height: 55px;
   }
 }
 .contactlinks img:hover {
   transform: translateY(-10px);
 }
-/* Media Queries */
 
+/*--------------------------------------------- Media Queries Section------------------------------------------------ */
 /* Laptop Screens (greater than 1024px) */
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   body {
-    margin: 0 10vw; /* Increased margin for wider screens */
+    margin: 0 10vw; 
   }
-}
+} */
 
 /* iPad Screens (between 768px and 1024px) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
   body {
-    margin: 0 5vw; /* Adjusted margin for iPad screens */
-  }
-}
+    margin: 0 5vw; Adjusted margin for iPad screens */
+  /* }
+} */
 
 /* Mobile Screens (up to 767px) */
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   body {
     margin: 0; /* Reset margin for mobile screens */
-  }
-
+  /* } */ 
+/* 
   .intro,
   .aboutsection,
   .experience,
   .skillset,
   .projectsection,
   .contactsection {
-    margin-top: 10vh; /* Adjusted margin for better spacing on mobile */
-    margin-bottom: 10vh;
+    margin-top: 10vh; Adjusted margin for better spacing on mobile */
+    /* margin-bottom: 10vh;
   }
-}
-/* CSS for resume button */
+} */
+/* -----------------------------------------------Resume button-------------------------------------------------- */
 .resumebtn {
-  position: fixed; /* Set position to fixed */
-  bottom: 20px; /* Position from the bottom edge */
-  right: 20px; /* Position from the right edge */
-  padding: 2vh 4vw; /* Responsive padding */
-  font-size: 1.2em; /* Increase font size */
-  line-height: 1.5; /* Increase line height */
-  background-color: rgba(158, 107, 52, 0.8); /* Brown color with transparency */
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px;
+  padding: 2vh 4vw; 
+  font-size: 1.2em; 
+  line-height: 1.5; 
+  background-color: rgba(158, 107, 52, 0.8);
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
   transition: background-color 0.3s ease;
-  text-align: center; /* Center text horizontally */
-  z-index: 9999; /* Ensure the button stays on top */
+  text-align: center;
+  z-index: 9999; 
 }
 
 .resumebtn:hover {
@@ -347,22 +344,22 @@ body {
     37,
     0.8
   ); /* Darker brown color with transparency on hover */
-}
+ }
 /* For iPads */
-@media only screen and (max-device-width: 1024px) {
+ @media only screen and (max-device-width: 1024px) {
   .resumebtn {
     font-size: 14px;
     padding: 8px 16px;
   }
-}
+} 
 
 /* For iPhones */
-@media only screen and (max-device-width: 480px) {
+ @media only screen and (max-device-width: 480px) {
   .resumebtn {
     font-size: 12px;
     padding: 6px 12px;
   }
-}
+} 
 
 /* For small mobile screens */
 @media only screen and (max-device-width: 320px) {
@@ -371,47 +368,42 @@ body {
     padding: 4px 8px;
   }
 }
-/* Media query for mobile screens */
-@media only screen and (max-width: 767px) {
-  /* Adjusted font size and weight for section headings */
-  /* .intro #hi,
-  .intro #hi2, */
+/*Media query for mobile screens*/
+@media only screen and (max-width: 767px) { 
+
+  .intro #hi,
+  .intro #hi2, 
   .aboutsection #aboutheading,
   .experience #expheading,
   .skillset #skillset1,
   .projectsection #projectheading,
-  .contactsection .contactheading {
-    font-size: 35px; /* Adjusted font size for mobile */
-    font-weight: bold; /* Ensure headings remain bold */
+  .contactsection .contactheading { 
+     font-size: 35px; 
+    font-weight: bold; 
   }
-}
+} 
 
 
-@media only screen and (max-width: 767px) {
-  /* Adjusted font size and weight for section headings */
-  .intro #hi2 {
-    font-size: 29px;
-    /* font-weight: bold; */
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  /* Adjusted font size and weight for section headings */
+@media only screen and (max-width: 767px) {  .intro #hi2 {
+    font-size: 29px; 
+     font-weight: bold; 
+   }
+} @media only screen and (max-width: 700px) { 
+ 
   #abouttext {
     font-size: 3vw;
   }
-}
+} 
 
-@media only screen and (max-width: 767px) {
-  /* Adjusted font size and weight for section headings */
-  .intro #hi {
+@media only screen and (max-width: 767px) { 
+
+ .intro #hi {
     font-size: 40px;
     font-weight: bold;
   }
-}
-
+} 
 @media only screen and (max-width: 460px) {
   .headingtext {
-    font-size: 25px; /* Adjusted font size for mobile */
+    font-size: 25px; 
   }
-}
+}  
