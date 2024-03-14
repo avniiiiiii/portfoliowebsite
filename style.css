@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
   margin:0;
   padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f2f6faf3; /* Soft blue-gray background */
+  background-color: #f2f6faf3; 
 }
 
 
@@ -79,26 +79,26 @@ body {
 }
 
 /* Experience Section */
-/* Experience Section */
+
 .experience {
-  display: flex; /* Use flexbox to arrange children */
-  flex-direction: row; /* Arrange items in a row */
-  justify-content: center; /* Center items horizontally */
-  align-items: flex-start; /* Align items to the start of the flex container */
-  flex-wrap: wrap; /* Allow items to wrap if they exceed the container width */
-  text-align: center; /* Center text within each box */
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  text-align: center;
   overflow-wrap: break-word;
 }
 
-/* Heading styles */
+
 #expheading {
-  font-size: 3.5vw; /* Responsive font size */
+  font-size: 3.5vw; 
   font-weight: bold;
-  margin-bottom: 4vh; /* Adjusted margin for spacing */
-  color: #333; /* Dark gray for heading */
-  width: 100%; /* Ensure heading takes full width */
+  margin-bottom: 4vh; 
+  color: #333; 
+  width: 100%; 
 }
-/* Style for individual experience boxes */
+
 .experience-box {
   width: 300px;
   height: 200px;
@@ -113,7 +113,7 @@ body {
   line-height: 1.3;
 }
 
-/* Ensure equal spacing between boxes */
+
 .experience-box:first-child {
   margin-left: 0;
 }
@@ -121,7 +121,7 @@ body {
 .experience-box:hover {
   transform: scale(1.05);
 }
-/* Media queries for responsiveness */
+
 @media screen and (max-width: 1257px) {
   .experience-box {
     width: calc(50% - 20px);
@@ -151,7 +151,9 @@ body {
     margin-left: 20px;
     word-wrap: break-word;
   }
-}
+} 
+
+
 /*SKILLSET SECTION*/
 .skillset {
   text-align: center;
