@@ -20,7 +20,7 @@ body {
   justify-content: center;
   text-align: left;
   opacity: 0; /* Set initial opacity to 0 for fade-in effect */
-  animation: fadeIn 2s ease forwards; /* Apply fade-in animation */
+  animation: fadeIn 4s ease forwards; /* Apply fade-in animation */
 }
 
 @keyframes fadeIn {
