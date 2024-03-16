@@ -41,14 +41,21 @@ body {
 #hi2 {
   margin-top: 2vh; 
   font-size: 3.5vw;
- 
   color: #555; 
+  animation: moveLeftToRight 3s ease-in infinite;
+
 }
 
-#hi2:hover {
-  color: #9e6b34;/*on hover */
-}
-
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(0%);
+    color:#555; 
+  }
+  100% {
+    transform: translateX(30%);
+    color:#9e6b34;
+  }
+} 
 /*--------------------------------------------- About Section------------------------------------------------ */
 
 .aboutsection {
