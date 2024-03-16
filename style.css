@@ -118,13 +118,13 @@ body {
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 1257px) {
+ @media screen and (max-width: 2800px) {
   .experience-box {
-    width: calc(50% - 20px);
+    width: calc(30% - 25px);
   }
-}
+} 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 990px) {
   .experience-box {
     width: calc(50% - 20px);
   }
