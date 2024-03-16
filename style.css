@@ -291,11 +291,11 @@ body {
 
 /*--------------------------------------------- Media Queries Section------------------------------------------------ */
 /* Laptop Screens (greater than 1024px) */
-/* @media only screen and (min-width: 1024px) {
+ @media only screen and (min-width: 1024px) {
   body {
-    margin: 0 10vw; 
+    margin: 0 6vw; 
   }
-} */
+} 
 
 /* iPad Screens (between 768px and 1024px) */
 /* @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -305,21 +305,20 @@ body {
 } */
 
 /* Mobile Screens (up to 767px) */
-/* @media only screen and (max-width: 767px) {
+ /* @media only screen and (max-width: 767px) {
   body {
-    margin: 0; /* Reset margin for mobile screens */
-  /* } */ 
-/* 
+    margin: 0; 
+  } 
   .intro,
   .aboutsection,
   .experience,
   .skillset,
   .projectsection,
   .contactsection {
-    margin-top: 10vh; Adjusted margin for better spacing on mobile */
-    /* margin-bottom: 10vh;
+    margin-top: 10vh; 
+     margin-bottom: 10vh;
   }
-} */
+}  */
 /* -----------------------------------------------Resume button-------------------------------------------------- */
 .resumebtn {
   position: fixed; 
