@@ -175,6 +175,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  
 }
 
 .skill-icons img {
@@ -182,11 +183,11 @@ body {
   height: 100px;
   margin: 1rem;
   border-radius: 50%;
-  transition: transform 0.5s ease;
+  transition: translate 1s ease;
 }
 
 .skill-icons img:hover {
-  transform: rotate(45deg);
+  transform: rotate(55deg);
 }
 
 /*---------------------------------------------Project Section------------------------------------------------ */
